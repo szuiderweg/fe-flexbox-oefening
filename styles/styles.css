@@ -1,1 +1,41 @@
 /*Schrijf hier jouw eigen CSS*/
+/* alleen flexbox dingen, de rest is al voor me gedaan */
+.container-1 {
+                /*border-color: magenta;*/
+                /*border-style: solid;*/
+                display: flex;
+                align-items: center;
+
+}
+
+/*   opdracht 2 */
+
+/*stap 1 blokjes van boven naar beneden plaatsen*/
+
+
+
+.container-2 {
+    padding-top: 50px;
+    /*border-color: slateblue;*/
+    /*border-style: solid;*/
+    display: flex;
+
+    /*hoofdas*/
+    flex-direction: column;
+    /*kruisas*/
+    align-items: center;
+
+}
+/*stap 2 title en beoordeling binnen blokjes verschuiven  */
+.rating{
+    /*border-color: cyan;*/
+    /*border-style: solid;*/
+    display: flex;
+    flex-direction: row;
+    /*deze komen van css tricks*/
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+
